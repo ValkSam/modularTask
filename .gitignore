@@ -1,0 +1,15 @@
+.idea
+.idea/*
+.ideaDataSources
+.ideaDataSources/*
+*.iml
+*.ipr
+*.iws
+
+.gradle
+
+logs
+
+build
+
+out

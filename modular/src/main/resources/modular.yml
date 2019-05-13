@@ -1,0 +1,21 @@
+spring.application.name: modular_design
+
+server.port: 8090
+
+spring:
+  jackson.serialization:
+    indent_output: true
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/modular
+
+executor:
+  start_delay_seconds: 0
+  period_seconds: 60
+  task_threads: 10
+
+file:
+  charset: Cp1251
+
+logging.level.modular.design: INFO
